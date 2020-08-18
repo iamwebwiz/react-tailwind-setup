@@ -1,9 +1,3 @@
-import React, { Fragment } from "react";
+import { ProfileCard } from "./ProfileCard";
 
-export const ProfileCard = () => {
-  return (
-    <Fragment>
-      <div>Hello there</div>
-    </Fragment>
-  );
-};
+export default ProfileCard;

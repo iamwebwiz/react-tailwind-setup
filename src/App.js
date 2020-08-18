@@ -1,9 +1,12 @@
 import React, { Fragment } from "react";
+import ProfileCard from "./components/ProfileCard";
 
 export default function App() {
   return (
     <Fragment>
-      <h1 className="text-3xl text-indigo-600">Hello Tailwind!</h1>
+      <div className="w-screen h-screen bg-purple-100 grid justify-center items-center">
+        <ProfileCard />
+      </div>
     </Fragment>
   );
 }
